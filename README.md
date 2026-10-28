@@ -42,6 +42,12 @@ A simple Flutter widget demo that uses `FadeTransition` to smoothly fade the Flu
    flutter run
    ```
 
+## Widget Attributes
+
+- `opacity`: Controls the transparency of the child widget using an animation value between 0.0 (invisible) and 1.0 (fully visible).
+- `child`: Specifies the widget that will fade in and out. In this demo, it is a `FlutterLogo`.
+- `key`: An optional identifier used to control how Flutter updates widgets in the widget tree.
+
 ## How It Works
 
 The application displays the Flutter logo in the center of the screen using the `FadeTransition` widget.
@@ -59,6 +65,10 @@ The animation controller is initialized in `initState()` and disposed of in `dis
 - Dart
 - `FadeTransition`
 - `AnimationController`
+
+## App Picture
+<img width="668" height="892" alt="image" src="https://github.com/user-attachments/assets/0444d788-c643-4e2c-96e7-7b16a000a15b" />
+
 
 ## License
 
